@@ -7,7 +7,7 @@ This is a project work about testing, with the help of Jasmine, the underlying b
 
 To run the project, copy into your browser the following Url:
 
-http://pianove.github.io/frontend-nanodegree-feedreader
+http://pianove.github.io/frontend-nanodegree-feedreader/
 
 # Test Scenarios
 
