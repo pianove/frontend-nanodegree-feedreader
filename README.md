@@ -19,10 +19,13 @@ To run the tests, click on the test scenarios on the bottom of the page.
 
 # Libraries and Frameworks
 
-[Jasmine 2.1.2](http://jasmine.github.io/2.1/introduction.html "jasmine")
-[jquery 2.1.1](http://api.jquery.com/ "jquery")
-[handlebars 2.0.0](http://handlebarsjs.com/ "handlebars template")
-[Google.com jsapi](http://google.com/jsapi "gooogle jsapi")
+ [Jasmine 2.1.2](http://jasmine.github.io/2.1/introduction.html "jasmine")
+ 
+ [jquery 2.1.1](http://api.jquery.com/ "jquery")
+ 
+ [handlebars 2.0.0](http://handlebarsjs.com/ "handlebars template")
+ 
+ [Google.com jsapi](http://google.com/jsapi "gooogle jsapi")
 
 
 # Resources
