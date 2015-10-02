@@ -9,6 +9,8 @@ To run the project, copy into your browser the following Url:
 
 http://pianove.github.io/frontend-nanodegree-feedreader/
 
+To run the tests, click on the test scenarios on the bottom of the page.
+
 # Test Scenarios
 
 1. The test suite  called <b>Rss Feeds</b> is about testing the RSS feeds definitions, the allFeeds variable (defined, not empty) in the application.
