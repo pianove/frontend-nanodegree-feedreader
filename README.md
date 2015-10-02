@@ -1,30 +1,39 @@
-# Project Overview
+# Feed Reader Testing
 
-This is a web-based application that reads RSS feeds. 
-
-
-
-## What will I learn?
-
-You will learn how to use Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
+This is a project work about testing, with the help of Jasmine, the underlying business logic, the event handling and DOM manipulation of a web-based application that reads RSS feeds.
 
 
+# Getting started
+
+To run the project, copy into your browser the following Url:
+
+http://pianove.github.io/frontend-nanodegree-feedreader
+
+# Test Scenarios
+
+1. The test suite  called <b>Rss Feeds</b> is about testing the RSS feeds definitions, the allFeeds variable (defined, not empty) in the application.
+2.The test suite <b>The menu</b> is about testing the menu element visibility (hiding/showing) changes. 
+3. The test suite <b>Initial Entries</b> is about testing the changes within feed container after the loadFeed function is called and completed.
+
+# Libraries and Frameworks
+
+* [Jasmine 2.1.2](http://jasmine.github.io/2.1/introduction.html "jasmine")
+* [jquery 2.1.1](http://api.jquery.com/ "jquery")
+* [handlebars 2.0.0](http://handlebarsjs.com/ "handlebars template")
+* [Google.com jsapi](http://google.com/jsapi "gooogle jsapi")
 
 
+# Resources
 
-# How will I complete this project?
+* [Testing Your JavaScript with Jasmine](http://code.tutsplus.com/tutorials/testing-your-javascript-with-jasmine--net-21229)
 
-1. Download the [required project assets](http://github.com/udacity/frontend-nanodegree-feedreader).
-2. Review the functionality of the application within your browser.
-3. Explore the application's HTML (*./index.html*), CSS (*./css/style.css*) and JavaScript (*./js/app.js*) to gain an understanding of how it works.
-4. Explore the Jasmine spec file in *./jasmine/spec/feedreader.js*
-5. Edit the allFeeds variable in *./js/app.js* to make the provided test fail and see how Jasmine visualizes this failure in your application.
-6. Return the allFeeds variable to a passing state.
-7. Write a test that loops through each feed in the allFeeds object and ensures it has a URL defined and that the URL is not empty.
-8. Write a test that loops through each feed in the allFeeds object and ensures it has a name defined and that the name is not empty.
-9. Write a new test suite named "The menu".
-10. Write a test that ensures the menu element is hidden by default. You'll have to analyze the HTML and the CSS to determine how we're performing the hiding/showing of the menu element.
-11. Write a test that ensures the menu changes visibility when the menu icon is clicked. This test should have two expectations: does the menu display when clicked and does it hide when clicked again.
-12. Write a test that ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the .feed container. Remember, loadFeed() is asynchronous so this test wil require the use of Jasmine's beforeEach and asynchronous done() function.
-13. Write a test that ensures when a new feed is loaded by the loadFeed function that the content actually changes. Remember, loadFeed() is asynchronous.
-14. When complete - all of your tests should pass.
+* [Learn Handlebars in 10 Minutes or Less](http://tutorialzine.com/2015/01/learn-handlebars-in-10-minutes/)
+
+* [IcoMoon and Icon Fonts](http://chipcullen.com/how-to-use-icomoon-and-icon-fonts-part-1-basic-usage/)
+
+* [Jasmine](http://jasmine.github.io/2.2/introduction.html)
+
+
+# Licence
+
+MIT license - http://www.opensource.org/licenses/mit-license.php
