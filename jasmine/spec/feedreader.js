@@ -102,15 +102,14 @@ $(function() {
    * completed.
    */
    describe('New Feed Selection', function() {
-        var before = $('.entry').text();
+        
         //the loadFeed() is completed asynchronously
         beforeEach(function(done){
             loadFeed(0, function(){ 
                 done();                           
             });        
         });
-       console.log(before);
-       
+        var before = $('.entry').text();
         /* to test when the loadFeed function is called and 
          * completes its work, there is actual content change
          */
