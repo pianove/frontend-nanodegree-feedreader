@@ -14,17 +14,17 @@ To run the tests, click on the test scenarios on the bottom of the page.
 # Test Scenarios
 
 1. The test suite  called <b>Rss Feeds</b> is about testing the RSS feeds definitions, the allFeeds variable (defined, not empty) in the application.
-2. The test suite <b>The menu</b> is about testing the menu element visibility (hiding/showing) changes. 
+2. The test suite <b>The menu</b> is about testing the menu element visibility (hiding/showing) changes.
 3. The test suite <b>Initial Entries</b> is about testing the changes within feed container after the loadFeed function is called and completed.
 
 # Libraries and Frameworks
 
  [Jasmine 2.1.2](http://jasmine.github.io/2.1/introduction.html "jasmine")
- 
+
  [jquery 2.1.1](http://api.jquery.com/ "jquery")
- 
+
  [handlebars 2.0.0](http://handlebarsjs.com/ "handlebars template")
- 
+
  [Google.com jsapi](http://google.com/jsapi "gooogle jsapi")
 
 
@@ -39,6 +39,6 @@ To run the tests, click on the test scenarios on the bottom of the page.
 [Jasmine](http://jasmine.github.io/2.2/introduction.html)
 
 
-# Licence
+# License
 
 MIT license - http://www.opensource.org/licenses/mit-license.php
